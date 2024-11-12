@@ -9,8 +9,8 @@ const debug = process.env.NODE_ENV !== 'production'
 
 export default createStore({
   state: {
-    // apiServer: 'http://127.0.0.1:8000/api/attendant' ,
-    apiServer: 'https://edoc.onetechcambodia.com/api/attendant' ,
+    apiServer: 'http://127.0.0.1:8000/api/attendant' ,
+    // apiServer: 'https://edoc.onetechcambodia.com/api/attendant' ,
     system: {
       name: 'ប្រព័ន្ធគ្រប់គ្រង វត្តមាន' ,
       organization: {
